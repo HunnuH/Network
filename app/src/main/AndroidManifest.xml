@@ -14,8 +14,9 @@
         android:usesCleartextTraffic="true">
 
         <activity android:name=".MainActivity" />
-        <activity android:name=".arduino.LEDControlActivity"/>
-        <activity android:name=".android.led.LedthreeActivity">
+
+        <activity android:name=".android.led.LedthreeActivity"/>
+        <activity android:name=".arduino.LEDControlActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

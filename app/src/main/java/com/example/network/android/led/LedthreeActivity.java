@@ -37,8 +37,10 @@ Socket server_main;
                     message = "led_2";
                 }else if(view.getId() == R.id.led3) {
                     message = "led_3";
-                }else {
+                }else if(view.getId() == R.id.led4){
                     message = "led_4";
+                }else {
+                    message = "led_5";
                 }
                 server_out.println(message);
             }
